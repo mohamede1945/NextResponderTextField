@@ -19,12 +19,12 @@ then one of the following happens:
 @author mohamede1945
 @version 1.0
 */
-class NextResponderTextField: UITextField {
+public class NextResponderTextField: UITextField {
 
     /// Represents the next field. It can be any responder.
     /// If it is UIButton and enabled then the button will be tapped.
     /// If it is UIButton and disabled then the keyboard will be dismissed.
-    @IBOutlet weak var nextResponderField: UIResponder?
+    @IBOutlet public weak var nextResponderField: UIResponder?
 
     /**
     Creates a new view with the passed coder.
@@ -33,7 +33,7 @@ class NextResponderTextField: UITextField {
 
     :returns: the created new view.
     */
-    required init(coder aDecoder: NSCoder) {
+    public required init(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         setUp()
     }
@@ -45,7 +45,7 @@ class NextResponderTextField: UITextField {
 
     :returns: the created new view.
     */
-    override init(frame: CGRect) {
+    override public init(frame: CGRect) {
         super.init(frame: frame)
         setUp()
     }
