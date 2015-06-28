@@ -8,7 +8,7 @@
 
 // NextResponderTextField
 #define COCOAPODS_POD_AVAILABLE_NextResponderTextField
-#define COCOAPODS_VERSION_MAJOR_NextResponderTextField 0
-#define COCOAPODS_VERSION_MINOR_NextResponderTextField 1
+#define COCOAPODS_VERSION_MAJOR_NextResponderTextField 1
+#define COCOAPODS_VERSION_MINOR_NextResponderTextField 0
 #define COCOAPODS_VERSION_PATCH_NextResponderTextField 0
 

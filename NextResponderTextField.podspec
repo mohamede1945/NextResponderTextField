@@ -9,20 +9,37 @@
 
 Pod::Spec.new do |s|
   s.name             = "NextResponderTextField"
-  s.version          = "0.1.0"
-  s.summary          = "A short description of NextResponderTextField."
+  s.version          = "1.0.0"
+  s.summary          = "Automatically moves to the next UITextField when tapping the keyboard action button"
   s.description      = <<-DESC
-                       An optional longer description of NextResponderTextField
 
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
+Represents a next responder UITextField.
+When the instance becomes first responder, and then the user taps the action button (e.g. return keyboard key)
+then one of the following happens:
+1. If no nextResponderField set, keyboard dismissed.
+2. If nextResponderField is a UIButton and disabled, then keyboard dismissed.
+3. If nextResponderField is a UIButton and enabled, then the UIButton fires touch up inside event (simulating a tap).
+
+You can set nextResponderField to any UIResponder subclass, and it will become first responder when tapped.
+But having multiple NextResponderTextField pointing to each other, then you can go to next field.
+
+The typical usage will be list of NextResponderTextField and the last one point to a UIButton.
+
+For example a login screen:
+Username -> NextResponderTextField
+Password -> NextResponderTextField
+Sign In -> UIButton
+
+Username.nextResponderField -> Password
+Password.nextResponderField -> Sign In
+
                        DESC
   s.homepage         = "https://github.com/mohamede1945/NextResponderTextField"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
-  s.author           = { "Mohamed Afifi" => "mohamede1945@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/NextResponderTextField.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { "Mohamed Afifi" => "" }
+  s.source           = { :git => "https://github.com/mohamede1945/NextResponderTextField.git", :tag => s.version.to_s }
+  # s.social_media_url = 'https://twitter.com/mohamede1945'
 
   s.platform     = :ios, '8.0'
   s.requires_arc = true

@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "91A15B3A6B576D2D91C2BE43"
+               BlueprintIdentifier = "47F9A36720786469C9AC4673"
                BuildableName = "NextResponderTextField.bundle"
                BlueprintName = "Pods-NextResponderTextField_Example-NextResponderTextField-NextResponderTextField"
                ReferencedContainer = "container:Pods.xcodeproj">

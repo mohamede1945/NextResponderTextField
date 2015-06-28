@@ -7,414 +7,341 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1843034040D8C0F9A00E361D /* NextResponderTextField.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 831816C57513CB069444AF35 /* NextResponderTextField.bundle */; };
-		303C76393D4E8F424C829B4F /* Pods-NextResponderTextField_Tests-NextResponderTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C7E39AE8F589792016E38AE /* Pods-NextResponderTextField_Tests-NextResponderTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		361E5FE8AB957D45822FC5AD /* Pods-NextResponderTextField_Tests-NextResponderTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1313303A9C386D34565ED6D2 /* Pods-NextResponderTextField_Tests-NextResponderTextField-dummy.m */; };
-		54D91EE31B404BC6009C8985 /* NextResponderTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D91EE21B404BC6009C8985 /* NextResponderTextField.swift */; };
-		54D91EE41B404BC6009C8985 /* NextResponderTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D91EE21B404BC6009C8985 /* NextResponderTextField.swift */; };
-		62354CAB67B6280A654F4B89 /* Pods-NextResponderTextField_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C0FBC2675518C4C291640870 /* Pods-NextResponderTextField_Example-dummy.m */; };
-		7CDB0DBE654B275B37A22048 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF2E3639DA1C7E3010CEFF09 /* Foundation.framework */; };
-		823FB17FB5AD5B4A6DF7ACA3 /* Pods-NextResponderTextField_Example-NextResponderTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C1E1E8F990EF32B10D6BAEA /* Pods-NextResponderTextField_Example-NextResponderTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		83DE13B36B36C331EB49D234 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF2E3639DA1C7E3010CEFF09 /* Foundation.framework */; };
-		939133EA1D71C8BB4776E5E8 /* Pods-NextResponderTextField_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 32294D8B721DC50E1B87E91B /* Pods-NextResponderTextField_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A7E83E2F741948419A86F25C /* Pods-NextResponderTextField_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 60FCAA27E457867D11CFFD7E /* Pods-NextResponderTextField_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AF96BAD04CD248A02AAD4E10 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF2E3639DA1C7E3010CEFF09 /* Foundation.framework */; };
-		B88144029D02211D20407813 /* Pods-NextResponderTextField_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 623A0C45CCA7CE5A9C991E84 /* Pods-NextResponderTextField_Tests-dummy.m */; };
-		CAA6AED8B0679C9FDA814B1D /* NextResponderTextField.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9717E834697F8DC5E43E6811 /* NextResponderTextField.bundle */; };
-		EB885F1EA8D7F4124713D718 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF2E3639DA1C7E3010CEFF09 /* Foundation.framework */; };
-		FE6668966C3BB8F4767F765A /* Pods-NextResponderTextField_Example-NextResponderTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B9AB638C12E8B57F1984927 /* Pods-NextResponderTextField_Example-NextResponderTextField-dummy.m */; };
+		074AA7C6D5856EF1F3236810 /* Pods-NextResponderTextField_Example-NextResponderTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6ADC3D781DEC8796B52AA803 /* Pods-NextResponderTextField_Example-NextResponderTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C1FF83BB66626D7729DCDF8 /* NextResponderTextField.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 903A6BB0C3789E78F170FAB3 /* NextResponderTextField.bundle */; };
+		196AFB5294636BB2669BAEB5 /* Pods-NextResponderTextField_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D523066051718F6D1B2BF798 /* Pods-NextResponderTextField_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		253E26CBBBAF9F75B49E583C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A05AAEEB3CA8DF7C363ADD61 /* Foundation.framework */; };
+		2CA4538AE9831F7F47CCE1D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A05AAEEB3CA8DF7C363ADD61 /* Foundation.framework */; };
+		3B936E54F06A6034608D5F8E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A05AAEEB3CA8DF7C363ADD61 /* Foundation.framework */; };
+		413B662E76B3FF755320239E /* Pods-NextResponderTextField_Tests-NextResponderTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F63ABFA812803F527878C04 /* Pods-NextResponderTextField_Tests-NextResponderTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		54642D44FB1D7743FEC88702 /* Pods-NextResponderTextField_Example-NextResponderTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EBD64FA86C5DBE53E369A3C /* Pods-NextResponderTextField_Example-NextResponderTextField-dummy.m */; };
+		5736BD5AD05FDD1C3D22B7E0 /* NextResponderTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCDB7C8B58F05918C199FAE /* NextResponderTextField.swift */; };
+		6CBA80EF83B788ED74924361 /* Pods-NextResponderTextField_Tests-NextResponderTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B4BF86BA1FCCEB06D271AEB0 /* Pods-NextResponderTextField_Tests-NextResponderTextField-dummy.m */; };
+		74A2D3FE42B1348FE1B83A07 /* Pods-NextResponderTextField_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FFAFE41E5F7F73AD951A1668 /* Pods-NextResponderTextField_Tests-dummy.m */; };
+		770E1E45F84D5C378D8DBA24 /* Pods-NextResponderTextField_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3152B52EFCD70DC5E891022E /* Pods-NextResponderTextField_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		887E4CF667DCF95A89E8AED3 /* NextResponderTextField.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2B99556913F28C81826207CC /* NextResponderTextField.bundle */; };
+		A03BBBE8CFD7E3F880E1B947 /* NextResponderTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCDB7C8B58F05918C199FAE /* NextResponderTextField.swift */; };
+		C5372DFBD135F63456CE0BFB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A05AAEEB3CA8DF7C363ADD61 /* Foundation.framework */; };
+		F9D205A77A60B5BCB6058ACF /* Pods-NextResponderTextField_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B9C3DFE8D36D0336CA49F118 /* Pods-NextResponderTextField_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		17A974F81AB2ADD25D0AC735 /* PBXContainerItemProxy */ = {
+		04B26819081C205B36A6D9E4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = CA3C0255AC1AE60222BC7605 /* Project object */;
+			containerPortal = A31D5C1AA2529E38675DDF5D /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 91A15B3A6B576D2D91C2BE43;
-			remoteInfo = "Pods-NextResponderTextField_Example-NextResponderTextField-NextResponderTextField";
-		};
-		1F87D673A271E5056F439CBA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CA3C0255AC1AE60222BC7605 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DF6E38C8FB314A7CDED4A7B9;
+			remoteGlobalIDString = 30DF5088F03B0FDCCDD87AA4;
 			remoteInfo = "Pods-NextResponderTextField_Tests-NextResponderTextField-NextResponderTextField";
 		};
-		86A4878E863CADDFA62F1540 /* PBXContainerItemProxy */ = {
+		124BBE31C75096E8153D2E0C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = CA3C0255AC1AE60222BC7605 /* Project object */;
+			containerPortal = A31D5C1AA2529E38675DDF5D /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 65E9E58318656EE0A0215524;
+			remoteGlobalIDString = 37CCCFED6ED4B7E4E2799D3C;
 			remoteInfo = "Pods-NextResponderTextField_Tests-NextResponderTextField";
 		};
-		FE9BE9F0498F1785895AA7AE /* PBXContainerItemProxy */ = {
+		C8CB236E816D6F6DC3987365 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = CA3C0255AC1AE60222BC7605 /* Project object */;
+			containerPortal = A31D5C1AA2529E38675DDF5D /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 19ECD34685B268035E751822;
+			remoteGlobalIDString = 76F16BB423F0BFD36ACF6CDC;
 			remoteInfo = "Pods-NextResponderTextField_Example-NextResponderTextField";
+		};
+		DFC186B84257264A7F18C49E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A31D5C1AA2529E38675DDF5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47F9A36720786469C9AC4673;
+			remoteInfo = "Pods-NextResponderTextField_Example-NextResponderTextField-NextResponderTextField";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0575A7F917D5D86F63B9F189 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		07CEB82BC4679B5027575A8B /* Pods-NextResponderTextField_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NextResponderTextField_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		0AEC9E224BB2D9AB006DFEC1 /* Pods-NextResponderTextField_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NextResponderTextField_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		1313303A9C386D34565ED6D2 /* Pods-NextResponderTextField_Tests-NextResponderTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-NextResponderTextField_Tests-NextResponderTextField-dummy.m"; path = "../Pods-NextResponderTextField_Tests-NextResponderTextField/Pods-NextResponderTextField_Tests-NextResponderTextField-dummy.m"; sourceTree = "<group>"; };
-		1D37AAF493C3B9E823507684 /* Pods-NextResponderTextField_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NextResponderTextField_Tests-resources.sh"; sourceTree = "<group>"; };
-		2C7E39AE8F589792016E38AE /* Pods-NextResponderTextField_Tests-NextResponderTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-NextResponderTextField_Tests-NextResponderTextField-umbrella.h"; path = "../Pods-NextResponderTextField_Tests-NextResponderTextField/Pods-NextResponderTextField_Tests-NextResponderTextField-umbrella.h"; sourceTree = "<group>"; };
-		2F1042E6C2AFAB168F10FB6D /* Pods-NextResponderTextField_Example-NextResponderTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NextResponderTextField_Example-NextResponderTextField-prefix.pch"; sourceTree = "<group>"; };
-		32294D8B721DC50E1B87E91B /* Pods-NextResponderTextField_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NextResponderTextField_Example-umbrella.h"; sourceTree = "<group>"; };
-		3C1E1E8F990EF32B10D6BAEA /* Pods-NextResponderTextField_Example-NextResponderTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NextResponderTextField_Example-NextResponderTextField-umbrella.h"; sourceTree = "<group>"; };
-		3CC0F452F38E20ECD23F5F7A /* Pods-NextResponderTextField_Tests-NextResponderTextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NextResponderTextField_Tests-NextResponderTextField.xcconfig"; path = "../Pods-NextResponderTextField_Tests-NextResponderTextField/Pods-NextResponderTextField_Tests-NextResponderTextField.xcconfig"; sourceTree = "<group>"; };
-		46F7CCC05D5CE5545B67E069 /* Pods-NextResponderTextField_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NextResponderTextField_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		49531472BC9A951D0D9DCC2D /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		49E664932551F78FC004DAA4 /* Pods-NextResponderTextField_Tests-NextResponderTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-NextResponderTextField_Tests-NextResponderTextField-prefix.pch"; path = "../Pods-NextResponderTextField_Tests-NextResponderTextField/Pods-NextResponderTextField_Tests-NextResponderTextField-prefix.pch"; sourceTree = "<group>"; };
-		4B9AB638C12E8B57F1984927 /* Pods-NextResponderTextField_Example-NextResponderTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NextResponderTextField_Example-NextResponderTextField-dummy.m"; sourceTree = "<group>"; };
-		538B2F7CBFC944588D26AE17 /* Pods-NextResponderTextField_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NextResponderTextField_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		546FB893B714ABA988C7C6F2 /* Pods_NextResponderTextField_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NextResponderTextField_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		54D91EE21B404BC6009C8985 /* NextResponderTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NextResponderTextField.swift; sourceTree = "<group>"; };
-		5F5B77B5390961C8881EF875 /* Pods-NextResponderTextField_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NextResponderTextField_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		60FCAA27E457867D11CFFD7E /* Pods-NextResponderTextField_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NextResponderTextField_Tests-umbrella.h"; sourceTree = "<group>"; };
-		623A0C45CCA7CE5A9C991E84 /* Pods-NextResponderTextField_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NextResponderTextField_Tests-dummy.m"; sourceTree = "<group>"; };
-		6594220DC0367DE82A109093 /* Pods-NextResponderTextField_Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NextResponderTextField_Tests-environment.h"; sourceTree = "<group>"; };
-		6B9FC595E33CD99FC0AA0EFC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Pods-NextResponderTextField_Tests-NextResponderTextField/Info.plist"; sourceTree = "<group>"; };
-		7824C8A2686BBBCCB81245C2 /* Pods-NextResponderTextField_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NextResponderTextField_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7BEBA5D7EFBDD592230889E8 /* Pods-NextResponderTextField_Example-NextResponderTextField-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NextResponderTextField_Example-NextResponderTextField-Private.xcconfig"; sourceTree = "<group>"; };
-		7F669D11F6FD6AF02D7CB5E2 /* Pods_NextResponderTextField_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NextResponderTextField_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		831816C57513CB069444AF35 /* NextResponderTextField.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NextResponderTextField.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		84046B09397AFE023A257BC1 /* Pods-NextResponderTextField_Tests-NextResponderTextField-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NextResponderTextField_Tests-NextResponderTextField-Private.xcconfig"; path = "../Pods-NextResponderTextField_Tests-NextResponderTextField/Pods-NextResponderTextField_Tests-NextResponderTextField-Private.xcconfig"; sourceTree = "<group>"; };
-		8751661C8982EC965FCA8D2F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8DFCA3E3299760D7AC7C89CC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		91CB72236B69AE2A65573BDA /* Pods-NextResponderTextField_Tests-NextResponderTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Pods-NextResponderTextField_Tests-NextResponderTextField.modulemap"; path = "../Pods-NextResponderTextField_Tests-NextResponderTextField/Pods-NextResponderTextField_Tests-NextResponderTextField.modulemap"; sourceTree = "<group>"; };
-		95AB312F7CD702B8DEAD4555 /* Pods-NextResponderTextField_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NextResponderTextField_Example-frameworks.sh"; sourceTree = "<group>"; };
-		9717E834697F8DC5E43E6811 /* NextResponderTextField.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NextResponderTextField.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		9E9C195C99CDD04E2B6C8ECD /* Pods-NextResponderTextField_Example-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NextResponderTextField_Example-environment.h"; sourceTree = "<group>"; };
-		A6BC5063CB773E3651C036F7 /* Pods-NextResponderTextField_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NextResponderTextField_Example-resources.sh"; sourceTree = "<group>"; };
-		AF1FAF21C16DA4F3CEED9D2D /* Pods-NextResponderTextField_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NextResponderTextField_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		AF2E3639DA1C7E3010CEFF09 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		B1880A85C8E27BC24D8A59B1 /* Pods-NextResponderTextField_Example-NextResponderTextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NextResponderTextField_Example-NextResponderTextField.xcconfig"; sourceTree = "<group>"; };
-		BADF01336DA1E9A6FF7AC379 /* Pods-NextResponderTextField_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-NextResponderTextField_Example.modulemap"; sourceTree = "<group>"; };
-		C0FBC2675518C4C291640870 /* Pods-NextResponderTextField_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NextResponderTextField_Example-dummy.m"; sourceTree = "<group>"; };
-		CAAD7F54CB9923DB906B697E /* Pods-NextResponderTextField_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-NextResponderTextField_Tests.modulemap"; sourceTree = "<group>"; };
-		CD4B342A57260792DF076C4F /* NextResponderTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NextResponderTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E1B269EA1EE349E4C474E8FF /* Pods-NextResponderTextField_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NextResponderTextField_Example.release.xcconfig"; sourceTree = "<group>"; };
-		E44C72DC56DA4E862C7B3F4B /* Pods-NextResponderTextField_Example-NextResponderTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-NextResponderTextField_Example-NextResponderTextField.modulemap"; sourceTree = "<group>"; };
-		EB444BCFDA600AADF8533575 /* Pods-NextResponderTextField_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NextResponderTextField_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F371A3100CA27BF83238A5D8 /* NextResponderTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NextResponderTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		04EAE662C29FFF90D86FE006 /* Pods-NextResponderTextField_Tests-NextResponderTextField-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NextResponderTextField_Tests-NextResponderTextField-Private.xcconfig"; path = "../Pods-NextResponderTextField_Tests-NextResponderTextField/Pods-NextResponderTextField_Tests-NextResponderTextField-Private.xcconfig"; sourceTree = "<group>"; };
+		0639026881D8469A0F5B9A18 /* Pods-NextResponderTextField_Example-NextResponderTextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NextResponderTextField_Example-NextResponderTextField.xcconfig"; sourceTree = "<group>"; };
+		0C2904C875FEF4259B3B8FEA /* Pods-NextResponderTextField_Example-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NextResponderTextField_Example-environment.h"; sourceTree = "<group>"; };
+		0F63ABFA812803F527878C04 /* Pods-NextResponderTextField_Tests-NextResponderTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-NextResponderTextField_Tests-NextResponderTextField-umbrella.h"; path = "../Pods-NextResponderTextField_Tests-NextResponderTextField/Pods-NextResponderTextField_Tests-NextResponderTextField-umbrella.h"; sourceTree = "<group>"; };
+		15C35604848D1EE4AC8960B3 /* Pods-NextResponderTextField_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NextResponderTextField_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		1CCB6A03D5E2C865521C8E7C /* Pods-NextResponderTextField_Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NextResponderTextField_Tests-environment.h"; sourceTree = "<group>"; };
+		1EBD64FA86C5DBE53E369A3C /* Pods-NextResponderTextField_Example-NextResponderTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NextResponderTextField_Example-NextResponderTextField-dummy.m"; sourceTree = "<group>"; };
+		20E49E614B3F4C0F4926AF5A /* Pods-NextResponderTextField_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NextResponderTextField_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		261E164D2D63CECB73F653AA /* Pods-NextResponderTextField_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NextResponderTextField_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		27943C5513C78389BE852D66 /* Pods-NextResponderTextField_Example-NextResponderTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NextResponderTextField_Example-NextResponderTextField-prefix.pch"; sourceTree = "<group>"; };
+		2B99556913F28C81826207CC /* NextResponderTextField.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NextResponderTextField.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		3152B52EFCD70DC5E891022E /* Pods-NextResponderTextField_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NextResponderTextField_Example-umbrella.h"; sourceTree = "<group>"; };
+		430777C1273A6BCDC928E991 /* Pods-NextResponderTextField_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-NextResponderTextField_Example.modulemap"; sourceTree = "<group>"; };
+		53C451C9EC9725C37E4F976F /* Pods_NextResponderTextField_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NextResponderTextField_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		55D399BB2BD15F83E4D90274 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56B98F8A7FB732AB27E19DF5 /* Pods-NextResponderTextField_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NextResponderTextField_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		56E56F44521C0CAC200B9E88 /* Pods-NextResponderTextField_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NextResponderTextField_Tests-resources.sh"; sourceTree = "<group>"; };
+		5CCDB7C8B58F05918C199FAE /* NextResponderTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NextResponderTextField.swift; sourceTree = "<group>"; };
+		6ADC3D781DEC8796B52AA803 /* Pods-NextResponderTextField_Example-NextResponderTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NextResponderTextField_Example-NextResponderTextField-umbrella.h"; sourceTree = "<group>"; };
+		774CC9A1376B3D65EB566AA3 /* Pods-NextResponderTextField_Example-NextResponderTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-NextResponderTextField_Example-NextResponderTextField.modulemap"; sourceTree = "<group>"; };
+		789DD57474D836638DAC7BD8 /* Pods-NextResponderTextField_Example-NextResponderTextField-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NextResponderTextField_Example-NextResponderTextField-Private.xcconfig"; sourceTree = "<group>"; };
+		83F3D21A54B464FAA4611999 /* Pods-NextResponderTextField_Tests-NextResponderTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-NextResponderTextField_Tests-NextResponderTextField-prefix.pch"; path = "../Pods-NextResponderTextField_Tests-NextResponderTextField/Pods-NextResponderTextField_Tests-NextResponderTextField-prefix.pch"; sourceTree = "<group>"; };
+		88C1C923AD39FFCDD13C1735 /* Pods-NextResponderTextField_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NextResponderTextField_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8A99AE2BABAA0BC6B41E5800 /* Pods-NextResponderTextField_Tests-NextResponderTextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NextResponderTextField_Tests-NextResponderTextField.xcconfig"; path = "../Pods-NextResponderTextField_Tests-NextResponderTextField/Pods-NextResponderTextField_Tests-NextResponderTextField.xcconfig"; sourceTree = "<group>"; };
+		903A6BB0C3789E78F170FAB3 /* NextResponderTextField.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NextResponderTextField.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		9063F6F819AD6E3D673FC457 /* Pods-NextResponderTextField_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NextResponderTextField_Example-resources.sh"; sourceTree = "<group>"; };
+		91D707FF1E77C93BFD236DBC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93F701B58EDC149E664DEC8D /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		954FE5BFFEB69D566F35F540 /* Pods-NextResponderTextField_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NextResponderTextField_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		981C0DB61B35B7A23A7841AB /* Pods-NextResponderTextField_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NextResponderTextField_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A05AAEEB3CA8DF7C363ADD61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		A7731ADEB70EDB45F9E59AD6 /* Pods-NextResponderTextField_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-NextResponderTextField_Tests.modulemap"; sourceTree = "<group>"; };
+		B350766326D6AEE690E407E2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Pods-NextResponderTextField_Tests-NextResponderTextField/Info.plist"; sourceTree = "<group>"; };
+		B4BF86BA1FCCEB06D271AEB0 /* Pods-NextResponderTextField_Tests-NextResponderTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-NextResponderTextField_Tests-NextResponderTextField-dummy.m"; path = "../Pods-NextResponderTextField_Tests-NextResponderTextField/Pods-NextResponderTextField_Tests-NextResponderTextField-dummy.m"; sourceTree = "<group>"; };
+		B9C3DFE8D36D0336CA49F118 /* Pods-NextResponderTextField_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NextResponderTextField_Example-dummy.m"; sourceTree = "<group>"; };
+		C5DF39B3E484F8657F6584C9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D20A0F5FED1E1B1536B82F51 /* Pods-NextResponderTextField_Tests-NextResponderTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Pods-NextResponderTextField_Tests-NextResponderTextField.modulemap"; path = "../Pods-NextResponderTextField_Tests-NextResponderTextField/Pods-NextResponderTextField_Tests-NextResponderTextField.modulemap"; sourceTree = "<group>"; };
+		D4E039C10EED41B804A9D6F7 /* Pods_NextResponderTextField_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NextResponderTextField_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D523066051718F6D1B2BF798 /* Pods-NextResponderTextField_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NextResponderTextField_Tests-umbrella.h"; sourceTree = "<group>"; };
+		D572FC43B5FE0383C97AC926 /* Pods-NextResponderTextField_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NextResponderTextField_Example.release.xcconfig"; sourceTree = "<group>"; };
+		DC2461C52C975B12FA72BEFD /* NextResponderTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NextResponderTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5AE4E698D14702DE5E99B7F /* NextResponderTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NextResponderTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E60DBD33A77ED247DD427216 /* Pods-NextResponderTextField_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NextResponderTextField_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		F4A92F14C8378F80136644E7 /* Pods-NextResponderTextField_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NextResponderTextField_Example-frameworks.sh"; sourceTree = "<group>"; };
+		FFAFE41E5F7F73AD951A1668 /* Pods-NextResponderTextField_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NextResponderTextField_Tests-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		54B54A10697B7A6806F42CE9 /* Frameworks */ = {
+		19B46A8C2FBD1A620E7593EC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83DE13B36B36C331EB49D234 /* Foundation.framework in Frameworks */,
+				253E26CBBBAF9F75B49E583C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8F76C21FD8FD85BDBF2D0E2A /* Frameworks */ = {
+		20472A2FA2016EF5218F990F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5372DFBD135F63456CE0BFB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FD80C0399AA66E007CC3BAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CA4538AE9831F7F47CCE1D7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C092E6449F672F6D5F6F54FE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A36CCB688192E365E970087A /* Frameworks */ = {
+		DD0B646C1ABFD6A87DC11301 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7CDB0DBE654B275B37A22048 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DDB8A1D854FF0D2F49552590 /* Frameworks */ = {
+		FB4237CB408DBC3DA2C5ACFD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB885F1EA8D7F4124713D718 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E857FA3DD147A1C1F015D9BB /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AF96BAD04CD248A02AAD4E10 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EB27B0265BCA16AE6D1989E5 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				3B936E54F06A6034608D5F8E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00954C71493FFECC2AF98F2B /* iOS */ = {
+		0D37204363C3F332D8E0876B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AF2E3639DA1C7E3010CEFF09 /* Foundation.framework */,
+				2B99556913F28C81826207CC /* NextResponderTextField.bundle */,
+				903A6BB0C3789E78F170FAB3 /* NextResponderTextField.bundle */,
+				E5AE4E698D14702DE5E99B7F /* NextResponderTextField.framework */,
+				DC2461C52C975B12FA72BEFD /* NextResponderTextField.framework */,
+				53C451C9EC9725C37E4F976F /* Pods_NextResponderTextField_Example.framework */,
+				D4E039C10EED41B804A9D6F7 /* Pods_NextResponderTextField_Tests.framework */,
 			);
-			name = iOS;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		013F7D4966AFF5DD6C3B8184 /* Pod */ = {
+		0ED951DFF1B11672F8C1F823 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				CE6E739102100335F36E4A8E /* Classes */,
+				2276C1C3C17CC20F219D6F41 /* NextResponderTextField */,
 			);
-			path = Pod;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		042CB567D7C66206E9F78072 /* Support Files */ = {
+		174396A637EC82036ECAF8C8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				8DFCA3E3299760D7AC7C89CC /* Info.plist */,
-				6B9FC595E33CD99FC0AA0EFC /* Info.plist */,
-				E44C72DC56DA4E862C7B3F4B /* Pods-NextResponderTextField_Example-NextResponderTextField.modulemap */,
-				B1880A85C8E27BC24D8A59B1 /* Pods-NextResponderTextField_Example-NextResponderTextField.xcconfig */,
-				7BEBA5D7EFBDD592230889E8 /* Pods-NextResponderTextField_Example-NextResponderTextField-Private.xcconfig */,
-				4B9AB638C12E8B57F1984927 /* Pods-NextResponderTextField_Example-NextResponderTextField-dummy.m */,
-				2F1042E6C2AFAB168F10FB6D /* Pods-NextResponderTextField_Example-NextResponderTextField-prefix.pch */,
-				3C1E1E8F990EF32B10D6BAEA /* Pods-NextResponderTextField_Example-NextResponderTextField-umbrella.h */,
-				91CB72236B69AE2A65573BDA /* Pods-NextResponderTextField_Tests-NextResponderTextField.modulemap */,
-				3CC0F452F38E20ECD23F5F7A /* Pods-NextResponderTextField_Tests-NextResponderTextField.xcconfig */,
-				84046B09397AFE023A257BC1 /* Pods-NextResponderTextField_Tests-NextResponderTextField-Private.xcconfig */,
-				1313303A9C386D34565ED6D2 /* Pods-NextResponderTextField_Tests-NextResponderTextField-dummy.m */,
-				49E664932551F78FC004DAA4 /* Pods-NextResponderTextField_Tests-NextResponderTextField-prefix.pch */,
-				2C7E39AE8F589792016E38AE /* Pods-NextResponderTextField_Tests-NextResponderTextField-umbrella.h */,
+				73FC9BFD23950E8123D8498A /* iOS */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/Pods-NextResponderTextField_Example-NextResponderTextField";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		2BA171F10E43F6CF3705B235 /* NextResponderTextField */ = {
+		2276C1C3C17CC20F219D6F41 /* NextResponderTextField */ = {
 			isa = PBXGroup;
 			children = (
-				013F7D4966AFF5DD6C3B8184 /* Pod */,
-				042CB567D7C66206E9F78072 /* Support Files */,
+				E056E955DA6B25D1967F448E /* Pod */,
+				A85DD388BCB86D3988779CC8 /* Support Files */,
 			);
 			name = NextResponderTextField;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		3C1DDF3E2BE433EA78B79DD5 = {
+		3557466767A98D4675207022 /* Pods-NextResponderTextField_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				49531472BC9A951D0D9DCC2D /* Podfile */,
-				A3D50AAC94CD3C62F18AFDC9 /* Development Pods */,
-				6D56DD53C35BB2094B582670 /* Frameworks */,
-				8C7EF5E2E38F22B57E0F45BC /* Products */,
-				667FA9CAD52A2F16AC8C17E0 /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		5F8EACBB0901F6AAC472C5BB /* Pods-NextResponderTextField_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				8751661C8982EC965FCA8D2F /* Info.plist */,
-				CAAD7F54CB9923DB906B697E /* Pods-NextResponderTextField_Tests.modulemap */,
-				EB444BCFDA600AADF8533575 /* Pods-NextResponderTextField_Tests-acknowledgements.markdown */,
-				AF1FAF21C16DA4F3CEED9D2D /* Pods-NextResponderTextField_Tests-acknowledgements.plist */,
-				623A0C45CCA7CE5A9C991E84 /* Pods-NextResponderTextField_Tests-dummy.m */,
-				6594220DC0367DE82A109093 /* Pods-NextResponderTextField_Tests-environment.h */,
-				0AEC9E224BB2D9AB006DFEC1 /* Pods-NextResponderTextField_Tests-frameworks.sh */,
-				1D37AAF493C3B9E823507684 /* Pods-NextResponderTextField_Tests-resources.sh */,
-				60FCAA27E457867D11CFFD7E /* Pods-NextResponderTextField_Tests-umbrella.h */,
-				07CEB82BC4679B5027575A8B /* Pods-NextResponderTextField_Tests.debug.xcconfig */,
-				46F7CCC05D5CE5545B67E069 /* Pods-NextResponderTextField_Tests.release.xcconfig */,
+				55D399BB2BD15F83E4D90274 /* Info.plist */,
+				A7731ADEB70EDB45F9E59AD6 /* Pods-NextResponderTextField_Tests.modulemap */,
+				954FE5BFFEB69D566F35F540 /* Pods-NextResponderTextField_Tests-acknowledgements.markdown */,
+				88C1C923AD39FFCDD13C1735 /* Pods-NextResponderTextField_Tests-acknowledgements.plist */,
+				FFAFE41E5F7F73AD951A1668 /* Pods-NextResponderTextField_Tests-dummy.m */,
+				1CCB6A03D5E2C865521C8E7C /* Pods-NextResponderTextField_Tests-environment.h */,
+				E60DBD33A77ED247DD427216 /* Pods-NextResponderTextField_Tests-frameworks.sh */,
+				56E56F44521C0CAC200B9E88 /* Pods-NextResponderTextField_Tests-resources.sh */,
+				D523066051718F6D1B2BF798 /* Pods-NextResponderTextField_Tests-umbrella.h */,
+				56B98F8A7FB732AB27E19DF5 /* Pods-NextResponderTextField_Tests.debug.xcconfig */,
+				261E164D2D63CECB73F653AA /* Pods-NextResponderTextField_Tests.release.xcconfig */,
 			);
 			name = "Pods-NextResponderTextField_Tests";
 			path = "Target Support Files/Pods-NextResponderTextField_Tests";
 			sourceTree = "<group>";
 		};
-		667FA9CAD52A2F16AC8C17E0 /* Targets Support Files */ = {
+		73FC9BFD23950E8123D8498A /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				C7D59C36F275C01437D0FE6A /* Pods-NextResponderTextField_Example */,
-				5F8EACBB0901F6AAC472C5BB /* Pods-NextResponderTextField_Tests */,
+				A05AAEEB3CA8DF7C363ADD61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		89750EBA77C572F951F19316 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5CCDB7C8B58F05918C199FAE /* NextResponderTextField.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A85DD388BCB86D3988779CC8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				91D707FF1E77C93BFD236DBC /* Info.plist */,
+				B350766326D6AEE690E407E2 /* Info.plist */,
+				774CC9A1376B3D65EB566AA3 /* Pods-NextResponderTextField_Example-NextResponderTextField.modulemap */,
+				0639026881D8469A0F5B9A18 /* Pods-NextResponderTextField_Example-NextResponderTextField.xcconfig */,
+				789DD57474D836638DAC7BD8 /* Pods-NextResponderTextField_Example-NextResponderTextField-Private.xcconfig */,
+				1EBD64FA86C5DBE53E369A3C /* Pods-NextResponderTextField_Example-NextResponderTextField-dummy.m */,
+				27943C5513C78389BE852D66 /* Pods-NextResponderTextField_Example-NextResponderTextField-prefix.pch */,
+				6ADC3D781DEC8796B52AA803 /* Pods-NextResponderTextField_Example-NextResponderTextField-umbrella.h */,
+				D20A0F5FED1E1B1536B82F51 /* Pods-NextResponderTextField_Tests-NextResponderTextField.modulemap */,
+				8A99AE2BABAA0BC6B41E5800 /* Pods-NextResponderTextField_Tests-NextResponderTextField.xcconfig */,
+				04EAE662C29FFF90D86FE006 /* Pods-NextResponderTextField_Tests-NextResponderTextField-Private.xcconfig */,
+				B4BF86BA1FCCEB06D271AEB0 /* Pods-NextResponderTextField_Tests-NextResponderTextField-dummy.m */,
+				83F3D21A54B464FAA4611999 /* Pods-NextResponderTextField_Tests-NextResponderTextField-prefix.pch */,
+				0F63ABFA812803F527878C04 /* Pods-NextResponderTextField_Tests-NextResponderTextField-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Pods-NextResponderTextField_Example-NextResponderTextField";
+			sourceTree = "<group>";
+		};
+		D22EB4011C53A85655EDBE63 = {
+			isa = PBXGroup;
+			children = (
+				93F701B58EDC149E664DEC8D /* Podfile */,
+				0ED951DFF1B11672F8C1F823 /* Development Pods */,
+				174396A637EC82036ECAF8C8 /* Frameworks */,
+				0D37204363C3F332D8E0876B /* Products */,
+				D2A7C2143FA834233DC9D127 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D2A7C2143FA834233DC9D127 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D6BA45F0C3DE333978B1F3E3 /* Pods-NextResponderTextField_Example */,
+				3557466767A98D4675207022 /* Pods-NextResponderTextField_Tests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		6D56DD53C35BB2094B582670 /* Frameworks */ = {
+		D6BA45F0C3DE333978B1F3E3 /* Pods-NextResponderTextField_Example */ = {
 			isa = PBXGroup;
 			children = (
-				00954C71493FFECC2AF98F2B /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		8C7EF5E2E38F22B57E0F45BC /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				9717E834697F8DC5E43E6811 /* NextResponderTextField.bundle */,
-				831816C57513CB069444AF35 /* NextResponderTextField.bundle */,
-				F371A3100CA27BF83238A5D8 /* NextResponderTextField.framework */,
-				CD4B342A57260792DF076C4F /* NextResponderTextField.framework */,
-				7F669D11F6FD6AF02D7CB5E2 /* Pods_NextResponderTextField_Example.framework */,
-				546FB893B714ABA988C7C6F2 /* Pods_NextResponderTextField_Tests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		A3D50AAC94CD3C62F18AFDC9 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				2BA171F10E43F6CF3705B235 /* NextResponderTextField */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		C7D59C36F275C01437D0FE6A /* Pods-NextResponderTextField_Example */ = {
-			isa = PBXGroup;
-			children = (
-				0575A7F917D5D86F63B9F189 /* Info.plist */,
-				BADF01336DA1E9A6FF7AC379 /* Pods-NextResponderTextField_Example.modulemap */,
-				7824C8A2686BBBCCB81245C2 /* Pods-NextResponderTextField_Example-acknowledgements.markdown */,
-				5F5B77B5390961C8881EF875 /* Pods-NextResponderTextField_Example-acknowledgements.plist */,
-				C0FBC2675518C4C291640870 /* Pods-NextResponderTextField_Example-dummy.m */,
-				9E9C195C99CDD04E2B6C8ECD /* Pods-NextResponderTextField_Example-environment.h */,
-				95AB312F7CD702B8DEAD4555 /* Pods-NextResponderTextField_Example-frameworks.sh */,
-				A6BC5063CB773E3651C036F7 /* Pods-NextResponderTextField_Example-resources.sh */,
-				32294D8B721DC50E1B87E91B /* Pods-NextResponderTextField_Example-umbrella.h */,
-				538B2F7CBFC944588D26AE17 /* Pods-NextResponderTextField_Example.debug.xcconfig */,
-				E1B269EA1EE349E4C474E8FF /* Pods-NextResponderTextField_Example.release.xcconfig */,
+				C5DF39B3E484F8657F6584C9 /* Info.plist */,
+				430777C1273A6BCDC928E991 /* Pods-NextResponderTextField_Example.modulemap */,
+				981C0DB61B35B7A23A7841AB /* Pods-NextResponderTextField_Example-acknowledgements.markdown */,
+				15C35604848D1EE4AC8960B3 /* Pods-NextResponderTextField_Example-acknowledgements.plist */,
+				B9C3DFE8D36D0336CA49F118 /* Pods-NextResponderTextField_Example-dummy.m */,
+				0C2904C875FEF4259B3B8FEA /* Pods-NextResponderTextField_Example-environment.h */,
+				F4A92F14C8378F80136644E7 /* Pods-NextResponderTextField_Example-frameworks.sh */,
+				9063F6F819AD6E3D673FC457 /* Pods-NextResponderTextField_Example-resources.sh */,
+				3152B52EFCD70DC5E891022E /* Pods-NextResponderTextField_Example-umbrella.h */,
+				20E49E614B3F4C0F4926AF5A /* Pods-NextResponderTextField_Example.debug.xcconfig */,
+				D572FC43B5FE0383C97AC926 /* Pods-NextResponderTextField_Example.release.xcconfig */,
 			);
 			name = "Pods-NextResponderTextField_Example";
 			path = "Target Support Files/Pods-NextResponderTextField_Example";
 			sourceTree = "<group>";
 		};
-		CE6E739102100335F36E4A8E /* Classes */ = {
+		E056E955DA6B25D1967F448E /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				54D91EE21B404BC6009C8985 /* NextResponderTextField.swift */,
+				89750EBA77C572F951F19316 /* Classes */,
 			);
-			path = Classes;
+			path = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0AB2D8F61F8E1D909D2A0049 /* Headers */ = {
+		2DDC6170437CE4F4D9D347AF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				823FB17FB5AD5B4A6DF7ACA3 /* Pods-NextResponderTextField_Example-NextResponderTextField-umbrella.h in Headers */,
+				196AFB5294636BB2669BAEB5 /* Pods-NextResponderTextField_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3C518395B3DEA90B2831BABF /* Headers */ = {
+		2F13E4960E09D7002502E9FD /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				939133EA1D71C8BB4776E5E8 /* Pods-NextResponderTextField_Example-umbrella.h in Headers */,
+				074AA7C6D5856EF1F3236810 /* Pods-NextResponderTextField_Example-NextResponderTextField-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CAE60CED806B699EC6C8EB59 /* Headers */ = {
+		AD8CFD4FDC578CD8136E6DD8 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7E83E2F741948419A86F25C /* Pods-NextResponderTextField_Tests-umbrella.h in Headers */,
+				413B662E76B3FF755320239E /* Pods-NextResponderTextField_Tests-NextResponderTextField-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D50859C02AC81874AA8010DE /* Headers */ = {
+		E7A404FB2CD6A0977D10B8BA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				303C76393D4E8F424C829B4F /* Pods-NextResponderTextField_Tests-NextResponderTextField-umbrella.h in Headers */,
+				770E1E45F84D5C378D8DBA24 /* Pods-NextResponderTextField_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		02F19CDF14C2865A71F02785 /* Pods-NextResponderTextField_Tests */ = {
+		30DF5088F03B0FDCCDD87AA4 /* Pods-NextResponderTextField_Tests-NextResponderTextField-NextResponderTextField */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AE74394C1F01F5297A385C50 /* Build configuration list for PBXNativeTarget "Pods-NextResponderTextField_Tests" */;
+			buildConfigurationList = 7DA485543712D55D0F9BA271 /* Build configuration list for PBXNativeTarget "Pods-NextResponderTextField_Tests-NextResponderTextField-NextResponderTextField" */;
 			buildPhases = (
-				317D1A25F7084BA6A7653A3C /* Sources */,
-				54B54A10697B7A6806F42CE9 /* Frameworks */,
-				CAE60CED806B699EC6C8EB59 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2D360CB8C12BBDAA8C23ADB5 /* PBXTargetDependency */,
-			);
-			name = "Pods-NextResponderTextField_Tests";
-			productName = "Pods-NextResponderTextField_Tests";
-			productReference = 546FB893B714ABA988C7C6F2 /* Pods_NextResponderTextField_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		19ECD34685B268035E751822 /* Pods-NextResponderTextField_Example-NextResponderTextField */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CA168C27E66300B436837A84 /* Build configuration list for PBXNativeTarget "Pods-NextResponderTextField_Example-NextResponderTextField" */;
-			buildPhases = (
-				DFF409D83EA1F79C27CC66A8 /* Sources */,
-				DDB8A1D854FF0D2F49552590 /* Frameworks */,
-				738AAAFADBAA61E5D05FACF2 /* Resources */,
-				0AB2D8F61F8E1D909D2A0049 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C1B51825B644A7CBE63463E4 /* PBXTargetDependency */,
-			);
-			name = "Pods-NextResponderTextField_Example-NextResponderTextField";
-			productName = "Pods-NextResponderTextField_Example-NextResponderTextField";
-			productReference = F371A3100CA27BF83238A5D8 /* NextResponderTextField.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		65E9E58318656EE0A0215524 /* Pods-NextResponderTextField_Tests-NextResponderTextField */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F6A1FE0F376FC83B97062E23 /* Build configuration list for PBXNativeTarget "Pods-NextResponderTextField_Tests-NextResponderTextField" */;
-			buildPhases = (
-				06294D742BDDA1A8FB128880 /* Sources */,
-				A36CCB688192E365E970087A /* Frameworks */,
-				9C683E2E03FEE532DC25AE6C /* Resources */,
-				D50859C02AC81874AA8010DE /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F29BDA57177D8172B4A1024B /* PBXTargetDependency */,
-			);
-			name = "Pods-NextResponderTextField_Tests-NextResponderTextField";
-			productName = "Pods-NextResponderTextField_Tests-NextResponderTextField";
-			productReference = CD4B342A57260792DF076C4F /* NextResponderTextField.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		91A15B3A6B576D2D91C2BE43 /* Pods-NextResponderTextField_Example-NextResponderTextField-NextResponderTextField */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9872D4334BD76B3BC70D3945 /* Build configuration list for PBXNativeTarget "Pods-NextResponderTextField_Example-NextResponderTextField-NextResponderTextField" */;
-			buildPhases = (
-				419265BD73712045273AA787 /* Sources */,
-				EB27B0265BCA16AE6D1989E5 /* Frameworks */,
-				E0B1C533742350C328C6AC9E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-NextResponderTextField_Example-NextResponderTextField-NextResponderTextField";
-			productName = "Pods-NextResponderTextField_Example-NextResponderTextField-NextResponderTextField";
-			productReference = 831816C57513CB069444AF35 /* NextResponderTextField.bundle */;
-			productType = "com.apple.product-type.bundle";
-		};
-		DF6E38C8FB314A7CDED4A7B9 /* Pods-NextResponderTextField_Tests-NextResponderTextField-NextResponderTextField */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8B6663B8ED21EA870D2B2DF5 /* Build configuration list for PBXNativeTarget "Pods-NextResponderTextField_Tests-NextResponderTextField-NextResponderTextField" */;
-			buildPhases = (
-				4FE36A768670EFEF0184788E /* Sources */,
-				8F76C21FD8FD85BDBF2D0E2A /* Frameworks */,
-				D3957588B305DDA7CBF36F34 /* Resources */,
+				0F1A8835E0E157E471D5F370 /* Sources */,
+				C092E6449F672F6D5F6F54FE /* Frameworks */,
+				62036287669F8B0593E8D1D7 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -422,82 +349,155 @@
 			);
 			name = "Pods-NextResponderTextField_Tests-NextResponderTextField-NextResponderTextField";
 			productName = "Pods-NextResponderTextField_Tests-NextResponderTextField-NextResponderTextField";
-			productReference = 9717E834697F8DC5E43E6811 /* NextResponderTextField.bundle */;
+			productReference = 2B99556913F28C81826207CC /* NextResponderTextField.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
-		ED61D0A871FAD62879F1FBCE /* Pods-NextResponderTextField_Example */ = {
+		37CCCFED6ED4B7E4E2799D3C /* Pods-NextResponderTextField_Tests-NextResponderTextField */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8A9351077C1D4FC10C02DC81 /* Build configuration list for PBXNativeTarget "Pods-NextResponderTextField_Example" */;
+			buildConfigurationList = CDDA725334CF2AA0470CC135 /* Build configuration list for PBXNativeTarget "Pods-NextResponderTextField_Tests-NextResponderTextField" */;
 			buildPhases = (
-				5A35DA6A09BA147C0B1C8B2F /* Sources */,
-				E857FA3DD147A1C1F015D9BB /* Frameworks */,
-				3C518395B3DEA90B2831BABF /* Headers */,
+				13EA97A258E8BFF9EB13AF35 /* Sources */,
+				FB4237CB408DBC3DA2C5ACFD /* Frameworks */,
+				574C86C0B1F3CA05E31E6E11 /* Resources */,
+				AD8CFD4FDC578CD8136E6DD8 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				07472C2EC4F56ACF8921074E /* PBXTargetDependency */,
+				A9BE1BB5075D4BDB74D229AB /* PBXTargetDependency */,
+			);
+			name = "Pods-NextResponderTextField_Tests-NextResponderTextField";
+			productName = "Pods-NextResponderTextField_Tests-NextResponderTextField";
+			productReference = DC2461C52C975B12FA72BEFD /* NextResponderTextField.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		47F9A36720786469C9AC4673 /* Pods-NextResponderTextField_Example-NextResponderTextField-NextResponderTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EAD2071B92B2034E5A08BF8 /* Build configuration list for PBXNativeTarget "Pods-NextResponderTextField_Example-NextResponderTextField-NextResponderTextField" */;
+			buildPhases = (
+				35B44F40549B40CB13413225 /* Sources */,
+				DD0B646C1ABFD6A87DC11301 /* Frameworks */,
+				2B3E941E9EDDD19BCDA3E2DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-NextResponderTextField_Example-NextResponderTextField-NextResponderTextField";
+			productName = "Pods-NextResponderTextField_Example-NextResponderTextField-NextResponderTextField";
+			productReference = 903A6BB0C3789E78F170FAB3 /* NextResponderTextField.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		76F16BB423F0BFD36ACF6CDC /* Pods-NextResponderTextField_Example-NextResponderTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F890F6547215545D4A3783F8 /* Build configuration list for PBXNativeTarget "Pods-NextResponderTextField_Example-NextResponderTextField" */;
+			buildPhases = (
+				941FA72C22C1A44549AE839A /* Sources */,
+				8FD80C0399AA66E007CC3BAD /* Frameworks */,
+				4E876A05959CEB3F46639127 /* Resources */,
+				2F13E4960E09D7002502E9FD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				051E7B26BC649EAB288F5974 /* PBXTargetDependency */,
+			);
+			name = "Pods-NextResponderTextField_Example-NextResponderTextField";
+			productName = "Pods-NextResponderTextField_Example-NextResponderTextField";
+			productReference = E5AE4E698D14702DE5E99B7F /* NextResponderTextField.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		96E8BCA2C6BD70032B8B4B00 /* Pods-NextResponderTextField_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDC4443830A8F40E41B986EE /* Build configuration list for PBXNativeTarget "Pods-NextResponderTextField_Tests" */;
+			buildPhases = (
+				C1E208B739A37C938F173E62 /* Sources */,
+				20472A2FA2016EF5218F990F /* Frameworks */,
+				2DDC6170437CE4F4D9D347AF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDC68BE8F2B9097179AA043A /* PBXTargetDependency */,
+			);
+			name = "Pods-NextResponderTextField_Tests";
+			productName = "Pods-NextResponderTextField_Tests";
+			productReference = D4E039C10EED41B804A9D6F7 /* Pods_NextResponderTextField_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B035C211BDA33D5D99ACAA15 /* Pods-NextResponderTextField_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C82B590D8CC24A6ABAA8816F /* Build configuration list for PBXNativeTarget "Pods-NextResponderTextField_Example" */;
+			buildPhases = (
+				693EB452BA8DA1A84AAE9C95 /* Sources */,
+				19B46A8C2FBD1A620E7593EC /* Frameworks */,
+				E7A404FB2CD6A0977D10B8BA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8336246AF8CDB24EC3B82DD6 /* PBXTargetDependency */,
 			);
 			name = "Pods-NextResponderTextField_Example";
 			productName = "Pods-NextResponderTextField_Example";
-			productReference = 7F669D11F6FD6AF02D7CB5E2 /* Pods_NextResponderTextField_Example.framework */;
+			productReference = 53C451C9EC9725C37E4F976F /* Pods_NextResponderTextField_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		CA3C0255AC1AE60222BC7605 /* Project object */ = {
+		A31D5C1AA2529E38675DDF5D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0640;
 			};
-			buildConfigurationList = D11AADBFB863C83E0C5CCAAD /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 63786592B3A5BDAF12F074F5 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 3C1DDF3E2BE433EA78B79DD5;
-			productRefGroup = 8C7EF5E2E38F22B57E0F45BC /* Products */;
+			mainGroup = D22EB4011C53A85655EDBE63;
+			productRefGroup = 0D37204363C3F332D8E0876B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				ED61D0A871FAD62879F1FBCE /* Pods-NextResponderTextField_Example */,
-				19ECD34685B268035E751822 /* Pods-NextResponderTextField_Example-NextResponderTextField */,
-				91A15B3A6B576D2D91C2BE43 /* Pods-NextResponderTextField_Example-NextResponderTextField-NextResponderTextField */,
-				02F19CDF14C2865A71F02785 /* Pods-NextResponderTextField_Tests */,
-				65E9E58318656EE0A0215524 /* Pods-NextResponderTextField_Tests-NextResponderTextField */,
-				DF6E38C8FB314A7CDED4A7B9 /* Pods-NextResponderTextField_Tests-NextResponderTextField-NextResponderTextField */,
+				B035C211BDA33D5D99ACAA15 /* Pods-NextResponderTextField_Example */,
+				76F16BB423F0BFD36ACF6CDC /* Pods-NextResponderTextField_Example-NextResponderTextField */,
+				47F9A36720786469C9AC4673 /* Pods-NextResponderTextField_Example-NextResponderTextField-NextResponderTextField */,
+				96E8BCA2C6BD70032B8B4B00 /* Pods-NextResponderTextField_Tests */,
+				37CCCFED6ED4B7E4E2799D3C /* Pods-NextResponderTextField_Tests-NextResponderTextField */,
+				30DF5088F03B0FDCCDD87AA4 /* Pods-NextResponderTextField_Tests-NextResponderTextField-NextResponderTextField */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		738AAAFADBAA61E5D05FACF2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1843034040D8C0F9A00E361D /* NextResponderTextField.bundle in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9C683E2E03FEE532DC25AE6C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CAA6AED8B0679C9FDA814B1D /* NextResponderTextField.bundle in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D3957588B305DDA7CBF36F34 /* Resources */ = {
+		2B3E941E9EDDD19BCDA3E2DF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E0B1C533742350C328C6AC9E /* Resources */ = {
+		4E876A05959CEB3F46639127 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C1FF83BB66626D7729DCDF8 /* NextResponderTextField.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		574C86C0B1F3CA05E31E6E11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				887E4CF667DCF95A89E8AED3 /* NextResponderTextField.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62036287669F8B0593E8D1D7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -507,126 +507,85 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		06294D742BDDA1A8FB128880 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				361E5FE8AB957D45822FC5AD /* Pods-NextResponderTextField_Tests-NextResponderTextField-dummy.m in Sources */,
-				54D91EE41B404BC6009C8985 /* NextResponderTextField.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		317D1A25F7084BA6A7653A3C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B88144029D02211D20407813 /* Pods-NextResponderTextField_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		419265BD73712045273AA787 /* Sources */ = {
+		0F1A8835E0E157E471D5F370 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4FE36A768670EFEF0184788E /* Sources */ = {
+		13EA97A258E8BFF9EB13AF35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5736BD5AD05FDD1C3D22B7E0 /* NextResponderTextField.swift in Sources */,
+				6CBA80EF83B788ED74924361 /* Pods-NextResponderTextField_Tests-NextResponderTextField-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35B44F40549B40CB13413225 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5A35DA6A09BA147C0B1C8B2F /* Sources */ = {
+		693EB452BA8DA1A84AAE9C95 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				62354CAB67B6280A654F4B89 /* Pods-NextResponderTextField_Example-dummy.m in Sources */,
+				F9D205A77A60B5BCB6058ACF /* Pods-NextResponderTextField_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DFF409D83EA1F79C27CC66A8 /* Sources */ = {
+		941FA72C22C1A44549AE839A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE6668966C3BB8F4767F765A /* Pods-NextResponderTextField_Example-NextResponderTextField-dummy.m in Sources */,
-				54D91EE31B404BC6009C8985 /* NextResponderTextField.swift in Sources */,
+				A03BBBE8CFD7E3F880E1B947 /* NextResponderTextField.swift in Sources */,
+				54642D44FB1D7743FEC88702 /* Pods-NextResponderTextField_Example-NextResponderTextField-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1E208B739A37C938F173E62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74A2D3FE42B1348FE1B83A07 /* Pods-NextResponderTextField_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		07472C2EC4F56ACF8921074E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-NextResponderTextField_Example-NextResponderTextField";
-			target = 19ECD34685B268035E751822 /* Pods-NextResponderTextField_Example-NextResponderTextField */;
-			targetProxy = FE9BE9F0498F1785895AA7AE /* PBXContainerItemProxy */;
-		};
-		2D360CB8C12BBDAA8C23ADB5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-NextResponderTextField_Tests-NextResponderTextField";
-			target = 65E9E58318656EE0A0215524 /* Pods-NextResponderTextField_Tests-NextResponderTextField */;
-			targetProxy = 86A4878E863CADDFA62F1540 /* PBXContainerItemProxy */;
-		};
-		C1B51825B644A7CBE63463E4 /* PBXTargetDependency */ = {
+		051E7B26BC649EAB288F5974 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-NextResponderTextField_Example-NextResponderTextField-NextResponderTextField";
-			target = 91A15B3A6B576D2D91C2BE43 /* Pods-NextResponderTextField_Example-NextResponderTextField-NextResponderTextField */;
-			targetProxy = 17A974F81AB2ADD25D0AC735 /* PBXContainerItemProxy */;
+			target = 47F9A36720786469C9AC4673 /* Pods-NextResponderTextField_Example-NextResponderTextField-NextResponderTextField */;
+			targetProxy = DFC186B84257264A7F18C49E /* PBXContainerItemProxy */;
 		};
-		F29BDA57177D8172B4A1024B /* PBXTargetDependency */ = {
+		8336246AF8CDB24EC3B82DD6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-NextResponderTextField_Example-NextResponderTextField";
+			target = 76F16BB423F0BFD36ACF6CDC /* Pods-NextResponderTextField_Example-NextResponderTextField */;
+			targetProxy = C8CB236E816D6F6DC3987365 /* PBXContainerItemProxy */;
+		};
+		A9BE1BB5075D4BDB74D229AB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-NextResponderTextField_Tests-NextResponderTextField-NextResponderTextField";
-			target = DF6E38C8FB314A7CDED4A7B9 /* Pods-NextResponderTextField_Tests-NextResponderTextField-NextResponderTextField */;
-			targetProxy = 1F87D673A271E5056F439CBA /* PBXContainerItemProxy */;
+			target = 30DF5088F03B0FDCCDD87AA4 /* Pods-NextResponderTextField_Tests-NextResponderTextField-NextResponderTextField */;
+			targetProxy = 04B26819081C205B36A6D9E4 /* PBXContainerItemProxy */;
+		};
+		DDC68BE8F2B9097179AA043A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-NextResponderTextField_Tests-NextResponderTextField";
+			target = 37CCCFED6ED4B7E4E2799D3C /* Pods-NextResponderTextField_Tests-NextResponderTextField */;
+			targetProxy = 124BBE31C75096E8153D2E0C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		083BD8C960ACB0872FE57927 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7BEBA5D7EFBDD592230889E8 /* Pods-NextResponderTextField_Example-NextResponderTextField-Private.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-NextResponderTextField_Example";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = NextResponderTextField;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		14DB1DF76B826A848A1DE914 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7BEBA5D7EFBDD592230889E8 /* Pods-NextResponderTextField_Example-NextResponderTextField-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-NextResponderTextField_Example-NextResponderTextField/Pods-NextResponderTextField_Example-NextResponderTextField-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-NextResponderTextField_Example-NextResponderTextField/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-NextResponderTextField_Example-NextResponderTextField/Pods-NextResponderTextField_Example-NextResponderTextField.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = NextResponderTextField;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		2392741F72C95A3C64878435 /* Release */ = {
+		01F9173DBB6817532883F0B6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -660,9 +619,22 @@
 			};
 			name = Release;
 		};
-		2A33A42995D09A81EC8B9B40 /* Release */ = {
+		1182F39B1B5EFFF701898CD5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7BEBA5D7EFBDD592230889E8 /* Pods-NextResponderTextField_Example-NextResponderTextField-Private.xcconfig */;
+			baseConfigurationReference = 04EAE662C29FFF90D86FE006 /* Pods-NextResponderTextField_Tests-NextResponderTextField-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-NextResponderTextField_Tests";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = NextResponderTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		184EB4A160EFF02F4D4EC126 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 789DD57474D836638DAC7BD8 /* Pods-NextResponderTextField_Example-NextResponderTextField-Private.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -677,8 +649,79 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Pods-NextResponderTextField_Example-NextResponderTextField/Pods-NextResponderTextField_Example-NextResponderTextField.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = NextResponderTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1949C514CE566E1F87487943 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 789DD57474D836638DAC7BD8 /* Pods-NextResponderTextField_Example-NextResponderTextField-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-NextResponderTextField_Example";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = NextResponderTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		21392C520BD6C5EADD6B6D58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04EAE662C29FFF90D86FE006 /* Pods-NextResponderTextField_Tests-NextResponderTextField-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-NextResponderTextField_Tests-NextResponderTextField/Pods-NextResponderTextField_Tests-NextResponderTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-NextResponderTextField_Tests-NextResponderTextField/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-NextResponderTextField_Tests-NextResponderTextField/Pods-NextResponderTextField_Tests-NextResponderTextField.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = NextResponderTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		44044C0C9BB651A8725242E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D572FC43B5FE0383C97AC926 /* Pods-NextResponderTextField_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-NextResponderTextField_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-NextResponderTextField_Example/Pods-NextResponderTextField_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_NextResponderTextField_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -687,9 +730,22 @@
 			};
 			name = Release;
 		};
-		4C0A04C14418B052F028F118 /* Debug */ = {
+		94306892C70E93F0645DA84C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 07CEB82BC4679B5027575A8B /* Pods-NextResponderTextField_Tests.debug.xcconfig */;
+			baseConfigurationReference = 04EAE662C29FFF90D86FE006 /* Pods-NextResponderTextField_Tests-NextResponderTextField-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-NextResponderTextField_Tests";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = NextResponderTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		99311B9D0A76F7D872D0D6FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56B98F8A7FB732AB27E19DF5 /* Pods-NextResponderTextField_Tests.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -717,20 +773,7 @@
 			};
 			name = Debug;
 		};
-		74362FA3295BE31153658681 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 84046B09397AFE023A257BC1 /* Pods-NextResponderTextField_Tests-NextResponderTextField-Private.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-NextResponderTextField_Tests";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = NextResponderTextField;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		75FCB5CF68314B038B887A9D /* Debug */ = {
+		9ACEBF9802C6C3DA9794C072 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -769,22 +812,9 @@
 			};
 			name = Debug;
 		};
-		B6383624BA0E11444988018E /* Release */ = {
+		AD5D3CAB5153236D11A2DF18 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7BEBA5D7EFBDD592230889E8 /* Pods-NextResponderTextField_Example-NextResponderTextField-Private.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-NextResponderTextField_Example";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = NextResponderTextField;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		BFE1CD888F8A0DBCEE107F2F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 538B2F7CBFC944588D26AE17 /* Pods-NextResponderTextField_Example.debug.xcconfig */;
+			baseConfigurationReference = 789DD57474D836638DAC7BD8 /* Pods-NextResponderTextField_Example-NextResponderTextField-Private.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -793,59 +823,14 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-NextResponderTextField_Example/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-NextResponderTextField_Example-NextResponderTextField/Pods-NextResponderTextField_Example-NextResponderTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-NextResponderTextField_Example-NextResponderTextField/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-NextResponderTextField_Example/Pods-NextResponderTextField_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_NextResponderTextField_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		C16BC026E09589113DEC0872 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 84046B09397AFE023A257BC1 /* Pods-NextResponderTextField_Tests-NextResponderTextField-Private.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-NextResponderTextField_Tests";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = NextResponderTextField;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		D893D306F84FABDED59631C4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E1B269EA1EE349E4C474E8FF /* Pods-NextResponderTextField_Example.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-NextResponderTextField_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-NextResponderTextField_Example/Pods-NextResponderTextField_Example.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-NextResponderTextField_Example-NextResponderTextField/Pods-NextResponderTextField_Example-NextResponderTextField.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_NextResponderTextField_Example;
+				PRODUCT_NAME = NextResponderTextField;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -854,9 +839,9 @@
 			};
 			name = Release;
 		};
-		DC71B06E01FC4A4B1E199DBD /* Release */ = {
+		BD7EE506B744FAC58569BC91 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46F7CCC05D5CE5545B67E069 /* Pods-NextResponderTextField_Tests.release.xcconfig */;
+			baseConfigurationReference = 261E164D2D63CECB73F653AA /* Pods-NextResponderTextField_Tests.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -883,9 +868,22 @@
 			};
 			name = Release;
 		};
-		F09157E57560059BDF8E2C95 /* Release */ = {
+		E049CEBE2B479BD679C77F6F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 84046B09397AFE023A257BC1 /* Pods-NextResponderTextField_Tests-NextResponderTextField-Private.xcconfig */;
+			baseConfigurationReference = 789DD57474D836638DAC7BD8 /* Pods-NextResponderTextField_Example-NextResponderTextField-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-NextResponderTextField_Example";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = NextResponderTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		E6165B9712885C5C34A2D858 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04EAE662C29FFF90D86FE006 /* Pods-NextResponderTextField_Tests-NextResponderTextField-Private.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -910,9 +908,9 @@
 			};
 			name = Release;
 		};
-		FC8264E922C82749CA44425D /* Debug */ = {
+		E7743904795072E63EB3A1EC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 84046B09397AFE023A257BC1 /* Pods-NextResponderTextField_Tests-NextResponderTextField-Private.xcconfig */;
+			baseConfigurationReference = 20E49E614B3F4C0F4926AF5A /* Pods-NextResponderTextField_Example.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -921,14 +919,16 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-NextResponderTextField_Tests-NextResponderTextField/Pods-NextResponderTextField_Tests-NextResponderTextField-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-NextResponderTextField_Tests-NextResponderTextField/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-NextResponderTextField_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-NextResponderTextField_Tests-NextResponderTextField/Pods-NextResponderTextField_Tests-NextResponderTextField.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-NextResponderTextField_Example/Pods-NextResponderTextField_Example.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = NextResponderTextField;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_NextResponderTextField_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -941,70 +941,70 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8A9351077C1D4FC10C02DC81 /* Build configuration list for PBXNativeTarget "Pods-NextResponderTextField_Example" */ = {
+		1EAD2071B92B2034E5A08BF8 /* Build configuration list for PBXNativeTarget "Pods-NextResponderTextField_Example-NextResponderTextField-NextResponderTextField" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BFE1CD888F8A0DBCEE107F2F /* Debug */,
-				D893D306F84FABDED59631C4 /* Release */,
+				E049CEBE2B479BD679C77F6F /* Debug */,
+				1949C514CE566E1F87487943 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8B6663B8ED21EA870D2B2DF5 /* Build configuration list for PBXNativeTarget "Pods-NextResponderTextField_Tests-NextResponderTextField-NextResponderTextField" */ = {
+		63786592B3A5BDAF12F074F5 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				74362FA3295BE31153658681 /* Debug */,
-				C16BC026E09589113DEC0872 /* Release */,
+				9ACEBF9802C6C3DA9794C072 /* Debug */,
+				01F9173DBB6817532883F0B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9872D4334BD76B3BC70D3945 /* Build configuration list for PBXNativeTarget "Pods-NextResponderTextField_Example-NextResponderTextField-NextResponderTextField" */ = {
+		7DA485543712D55D0F9BA271 /* Build configuration list for PBXNativeTarget "Pods-NextResponderTextField_Tests-NextResponderTextField-NextResponderTextField" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				083BD8C960ACB0872FE57927 /* Debug */,
-				B6383624BA0E11444988018E /* Release */,
+				94306892C70E93F0645DA84C /* Debug */,
+				1182F39B1B5EFFF701898CD5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AE74394C1F01F5297A385C50 /* Build configuration list for PBXNativeTarget "Pods-NextResponderTextField_Tests" */ = {
+		C82B590D8CC24A6ABAA8816F /* Build configuration list for PBXNativeTarget "Pods-NextResponderTextField_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4C0A04C14418B052F028F118 /* Debug */,
-				DC71B06E01FC4A4B1E199DBD /* Release */,
+				E7743904795072E63EB3A1EC /* Debug */,
+				44044C0C9BB651A8725242E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CA168C27E66300B436837A84 /* Build configuration list for PBXNativeTarget "Pods-NextResponderTextField_Example-NextResponderTextField" */ = {
+		CDDA725334CF2AA0470CC135 /* Build configuration list for PBXNativeTarget "Pods-NextResponderTextField_Tests-NextResponderTextField" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				14DB1DF76B826A848A1DE914 /* Debug */,
-				2A33A42995D09A81EC8B9B40 /* Release */,
+				21392C520BD6C5EADD6B6D58 /* Debug */,
+				E6165B9712885C5C34A2D858 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D11AADBFB863C83E0C5CCAAD /* Build configuration list for PBXProject "Pods" */ = {
+		EDC4443830A8F40E41B986EE /* Build configuration list for PBXNativeTarget "Pods-NextResponderTextField_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				75FCB5CF68314B038B887A9D /* Debug */,
-				2392741F72C95A3C64878435 /* Release */,
+				99311B9D0A76F7D872D0D6FA /* Debug */,
+				BD7EE506B744FAC58569BC91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F6A1FE0F376FC83B97062E23 /* Build configuration list for PBXNativeTarget "Pods-NextResponderTextField_Tests-NextResponderTextField" */ = {
+		F890F6547215545D4A3783F8 /* Build configuration list for PBXNativeTarget "Pods-NextResponderTextField_Example-NextResponderTextField" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FC8264E922C82749CA44425D /* Debug */,
-				F09157E57560059BDF8E2C95 /* Release */,
+				184EB4A160EFF02F4D4EC126 /* Debug */,
+				AD5D3CAB5153236D11A2DF18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = CA3C0255AC1AE60222BC7605 /* Project object */;
+	rootObject = A31D5C1AA2529E38675DDF5D /* Project object */;
 }
