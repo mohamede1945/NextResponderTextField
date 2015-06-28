@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
                        * Markdown format.
                        * Don't worry about the indent, we strip it!
                        DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/NextResponderTextField"
+  s.homepage         = "https://github.com/mohamede1945/NextResponderTextField"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Mohamed Afifi" => "mohamede1945@gmail.com" }
