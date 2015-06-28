@@ -1,0 +1,14 @@
+PODS:
+  - NextResponderTextField (0.1.0)
+
+DEPENDENCIES:
+  - NextResponderTextField (from `../`)
+
+EXTERNAL SOURCES:
+  NextResponderTextField:
+    :path: ../
+
+SPEC CHECKSUMS:
+  NextResponderTextField: 352eee4716d9d88ea3173267a3ddc7b7c4945ffd
+
+COCOAPODS: 0.37.2

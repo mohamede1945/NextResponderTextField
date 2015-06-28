@@ -1,0 +1,25 @@
+{
+  "name": "NextResponderTextField",
+  "version": "0.1.0",
+  "summary": "A short description of NextResponderTextField.",
+  "description": "                       An optional longer description of NextResponderTextField\n\n                       * Markdown format.\n                       * Don't worry about the indent, we strip it!\n",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/NextResponderTextField",
+  "license": "MIT",
+  "authors": {
+    "Mohamed Afifi": "mohamede1945@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/NextResponderTextField.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "NextResponderTextField": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}

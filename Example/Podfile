@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'NextResponderTextField_Example', :exclusive => true do
+  pod "NextResponderTextField", :path => "../"
+end
+
+target 'NextResponderTextField_Tests', :exclusive => true do
+  pod "NextResponderTextField", :path => "../"
+
+  
+end

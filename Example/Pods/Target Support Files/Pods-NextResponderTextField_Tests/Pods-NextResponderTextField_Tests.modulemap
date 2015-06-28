@@ -1,0 +1,6 @@
+framework module Pods_NextResponderTextField_Tests {
+  umbrella header "Pods-NextResponderTextField_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

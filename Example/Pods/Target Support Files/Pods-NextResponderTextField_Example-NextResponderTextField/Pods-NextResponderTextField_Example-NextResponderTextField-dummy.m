@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_NextResponderTextField_Example_NextResponderTextField : NSObject
+@end
+@implementation PodsDummy_Pods_NextResponderTextField_Example_NextResponderTextField
+@end
