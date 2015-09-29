@@ -29,7 +29,7 @@ Password.nextResponderField -> Sign In
 ## Requirements
 
 - iOS 7.0+ / Mac OS X 10.9+
-- Xcode 6.3
+- Xcode 7.6
 
 ## Usage
 

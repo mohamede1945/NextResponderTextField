@@ -33,7 +33,7 @@ public class NextResponderTextField: UITextField {
 
     :returns: the created new view.
     */
-    public required init(coder aDecoder: NSCoder) {
+    public required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         setUp()
     }
