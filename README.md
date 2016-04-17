@@ -37,6 +37,7 @@ Password.nextResponderField -> Sign In
 
 1. Drag and drop a `UITextField`.
 2. Change the class name to `NextResponderTextField` from identity inspector.
+3. Change the Module name to `NextResponderTextField` from identity inspector.
 ![Step 2](screenshots/step1.png)
 3. Do the previous steps multiple times.
 4. Wire each field with the next one like that
