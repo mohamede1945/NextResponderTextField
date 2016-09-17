@@ -17,9 +17,9 @@ then one of the following happens:
 3. If nextResponderField is a UIButton and enabled, then the UIButton fires touch up inside event (simulating a tap).
 
 @author mohamede1945
-@version 1.0
+@version 1.2.0
 */
-public class NextResponderTextField: UITextField {
+open class NextResponderTextField: UITextField {
 
     /// Represents the next field. It can be any responder.
     /// If it is UIButton and enabled then the button will be tapped.
@@ -54,7 +54,7 @@ public class NextResponderTextField: UITextField {
     Sets up the view.
     */
     func setUp() {
-        addTarget(self, action: "actionKeyboardButtonTapped:", forControlEvents: .EditingDidEndOnExit)
+        addTarget(self, action: #selector(NextResponderTextField.actionKeyboardButtonTapped(_:)), for: .editingDidEndOnExit)
     }
 
     /**
@@ -62,15 +62,15 @@ public class NextResponderTextField: UITextField {
 
     :param: sender The sender of the action parameter.
     */
-    func actionKeyboardButtonTapped(sender: UITextField) {
+    func actionKeyboardButtonTapped(_ sender: UITextField) {
         switch nextResponderField {
         case let button as UIButton:
-            if button.enabled {
-                button.sendActionsForControlEvents(.TouchUpInside)
+            if button.isEnabled {
+                button.sendActions(for: .touchUpInside)
             } else {
                 resignFirstResponder()
             }
-        case .Some(let responder):
+        case .some(let responder):
             responder.becomeFirstResponder()
         default:
             resignFirstResponder()
