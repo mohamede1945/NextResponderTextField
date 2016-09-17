@@ -17,7 +17,7 @@ then one of the following happens:
 3. If nextResponderField is a UIButton and enabled, then the UIButton fires touch up inside event (simulating a tap).
 
 @author mohamede1945
-@version 1.2
+@version 1.2.0
 */
 open class NextResponderTextField: UITextField {
 
