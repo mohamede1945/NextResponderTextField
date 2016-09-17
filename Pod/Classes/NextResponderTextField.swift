@@ -17,14 +17,14 @@ then one of the following happens:
 3. If nextResponderField is a UIButton and enabled, then the UIButton fires touch up inside event (simulating a tap).
 
 @author mohamede1945
-@version 1.0
+@version 1.2
 */
 open class NextResponderTextField: UITextField {
 
     /// Represents the next field. It can be any responder.
     /// If it is UIButton and enabled then the button will be tapped.
     /// If it is UIButton and disabled then the keyboard will be dismissed.
-    @IBOutlet open weak var nextResponderField: UIResponder?
+    @IBOutlet public weak var nextResponderField: UIResponder?
 
     /**
     Creates a new view with the passed coder.
