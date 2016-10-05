@@ -1,6 +1,5 @@
 # NextResponderTextField
 
-[![CI Status](http://img.shields.io/travis/mohamede1945/NextResponderTextField.svg?style=flat)](https://travis-ci.org/mohamede1945/NextResponderTextField)
 [![Version](https://img.shields.io/cocoapods/v/NextResponderTextField.svg?style=flat)](http://cocoapods.org/pods/NextResponderTextField)
 [![License](https://img.shields.io/cocoapods/l/NextResponderTextField.svg?style=flat)](http://cocoapods.org/pods/NextResponderTextField)
 [![Platform](https://img.shields.io/cocoapods/p/NextResponderTextField.svg?style=flat)](http://cocoapods.org/pods/NextResponderTextField)
