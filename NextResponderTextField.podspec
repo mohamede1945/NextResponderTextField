@@ -39,15 +39,12 @@ Password.nextResponderField -> Sign In
   s.homepage         = "https://github.com/mohamede1945/NextResponderTextField"
   s.screenshots     = "https://raw.githubusercontent.com/mohamede1945/NextResponderTextField/master/screenshots/demo.gif"
   s.license          = 'MIT'
-  s.author           = { "Mohamed Afifi" => "" }
+  s.author           = { "Mohamed Afifi" => "mohamede1945@gmail.com" }
   s.source           = { :git => "https://github.com/mohamede1945/NextResponderTextField.git", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/mohamede1945'
 
   s.platform     = :ios, '8.0'
   s.requires_arc = true
 
-  s.source_files = 'Pod/Classes/**/*'
-  s.resource_bundles = {
-    'NextResponderTextField' => ['Pod/Assets/*.png']
-  }
+  s.source_files = 'Sources/**/*'
 end
