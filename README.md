@@ -4,6 +4,7 @@
 [![License](https://img.shields.io/cocoapods/l/NextResponderTextField.svg?style=flat)](http://cocoapods.org/pods/NextResponderTextField)
 [![Platform](https://img.shields.io/cocoapods/p/NextResponderTextField.svg?style=flat)](http://cocoapods.org/pods/NextResponderTextField)
 
+**Supports Swift 3.0!**
 
 Represents a next responder UITextField.
 When the instance becomes first responder, and then the user taps the action button (e.g. return keyboard key) 
@@ -29,7 +30,7 @@ Password.nextResponderField -> Sign In
 
 - iOS 7.0+ / Mac OS X 10.9+
 - Xcode 8.0
-- Swift 2.3
+- Swift 3.0
 
 ## Usage
 
