@@ -54,7 +54,7 @@ public class NextResponderTextField: UITextField {
     Sets up the view.
     */
     func setUp() {
-        addTarget(self, action: #selector(NextResponderTextField.actionKeyboardButtonTapped(sender:)), for: .editingDidEndOnExit)
+        addTarget(self, action: #selector(actionKeyboardButtonTapped(sender:)), for: .editingDidEndOnExit)
     }
 
     /**
