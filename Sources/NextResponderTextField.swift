@@ -12,9 +12,10 @@ import UIKit
 Represents a next responder UITextField.
 When the instance becomes first responder, and then the user taps the action button (e.g. return keyboard key) 
 then one of the following happens:
-1. If no nextResponderField set, keyboard dismissed.
+1. If nextResponderField is not set, keyboard dismissed.
 2. If nextResponderField is a UIButton and disabled, then keyboard dismissed.
 3. If nextResponderField is a UIButton and enabled, then the UIButton fires touch up inside event (simulating a tap).
+4. If nextResponderField is another implementation of UIResponder (e.g. other text field), then it becomes the first responder (e.g. receives keyboard input).
 
 @author mohamede1945
 @version 1.0
@@ -24,6 +25,7 @@ public class NextResponderTextField: UITextField {
     /// Represents the next field. It can be any responder.
     /// If it is UIButton and enabled then the button will be tapped.
     /// If it is UIButton and disabled then the keyboard will be dismissed.
+    /// If it is another implementation, it becomes first responder.
     @IBOutlet public weak var nextResponderField: UIResponder?
 
     /**
