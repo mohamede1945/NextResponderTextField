@@ -20,13 +20,13 @@ then one of the following happens:
 @author mohamede1945
 @version 1.0
 */
-public class NextResponderTextField: UITextField {
+open class NextResponderTextField: UITextField {
 
     /// Represents the next field. It can be any responder.
     /// If it is UIButton and enabled then the button will be tapped.
     /// If it is UIButton and disabled then the keyboard will be dismissed.
     /// If it is another implementation, it becomes first responder.
-    @IBOutlet public weak var nextResponderField: UIResponder?
+    @IBOutlet open weak var nextResponderField: UIResponder?
 
     /**
     Creates a new view with the passed coder.
@@ -55,7 +55,7 @@ public class NextResponderTextField: UITextField {
     /**
     Sets up the view.
     */
-    func setUp() {
+    private func setUp() {
         addTarget(self, action: #selector(actionKeyboardButtonTapped(sender:)), for: .editingDidEndOnExit)
     }
 
@@ -64,7 +64,7 @@ public class NextResponderTextField: UITextField {
 
     :param: sender The sender of the action parameter.
     */
-    func actionKeyboardButtonTapped(sender: UITextField) {
+    @objc private func actionKeyboardButtonTapped(sender: UITextField) {
         switch nextResponderField {
         case let button as UIButton where button.isEnabled:
             button.sendActions(for: .touchUpInside)
