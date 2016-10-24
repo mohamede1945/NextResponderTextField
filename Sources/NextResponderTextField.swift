@@ -64,12 +64,8 @@ public class NextResponderTextField: UITextField {
     */
     func actionKeyboardButtonTapped(sender: UITextField) {
         switch nextResponderField {
-        case let button as UIButton:
-            if button.isEnabled {
-                button.sendActions(for: .touchUpInside)
-            } else {
-                resignFirstResponder()
-            }
+        case let button as UIButton where button.isEnabled:
+            button.sendActions(for: .touchUpInside)
         case .some(let responder):
             responder.becomeFirstResponder()
         default:
