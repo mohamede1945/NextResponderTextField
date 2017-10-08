@@ -9,11 +9,11 @@
 
 Pod::Spec.new do |s|
   s.name             = "NextResponderTextField"
-  s.version          = "2.0.1"
+  s.version          = "3.0.0"
   s.summary          = "Automatically moves to the next UITextField when tapping the keyboard action button"
   s.description      = <<-DESC
 
-**Supports Swift 3.0!**
+**Supports Swift 4.0!**
 
 Represents a next responder UITextField.
 When the instance becomes first responder, and then the user taps the action button (e.g. return keyboard key)

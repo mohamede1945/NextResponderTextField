@@ -1,4 +1,5 @@
 # NextResponderTextField
+[![Swift Version](https://img.shields.io/badge/Swift-4.0+-orange.svg)](https://swift.org)
 
 [![Version](https://img.shields.io/cocoapods/v/NextResponderTextField.svg?style=flat)](http://cocoapods.org/pods/NextResponderTextField)
 [![License](https://img.shields.io/cocoapods/l/NextResponderTextField.svg?style=flat)](http://cocoapods.org/pods/NextResponderTextField)

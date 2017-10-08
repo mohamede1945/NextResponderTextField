@@ -11,7 +11,9 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBAction func submitButtonTapped(sender: AnyObject) {
-        UIAlertView(title: "", message: "Sign in button tapped", delegate: nil, cancelButtonTitle: "Ok").show()
+        let alert = UIAlertController(title: nil, message: "Sign in button tapped", preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "Ok", style: .cancel, handler: nil))
+        present(alert, animated: true, completion: nil)
     }
 
 }
