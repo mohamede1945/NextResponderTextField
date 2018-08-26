@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "NextResponderTextField"
-  s.version          = "3.0.0"
+  s.version          = "3.0.1"
   s.summary          = "Automatically moves to the next UITextField when tapping the keyboard action button"
   s.description      = <<-DESC
 
@@ -37,7 +37,7 @@ Password.nextResponderField -> Sign In
 
                        DESC
   s.homepage         = "https://github.com/mohamede1945/NextResponderTextField"
-  s.screenshots     = "https://raw.githubusercontent.com/mohamede1945/NextResponderTextField/master/screenshots/demo.gif"
+  s.screenshots      = "https://raw.githubusercontent.com/mohamede1945/NextResponderTextField/master/screenshots/demo.gif"
   s.license          = 'MIT'
   s.author           = { "Mohamed Afifi" => "mohamede1945@gmail.com" }
   s.source           = { :git => "https://github.com/mohamede1945/NextResponderTextField.git", :tag => s.version.to_s }
@@ -46,5 +46,5 @@ Password.nextResponderField -> Sign In
   s.platform     = :ios, '8.0'
   s.requires_arc = true
 
-  s.source_files = 'Sources/**/*'
+  s.source_files = 'Sources/**/*.swift'
 end
